@@ -1,0 +1,207 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: rgb(0, 0, 0);
+
+
+
+}
+
+/*layout*/
+
+#area-cabecalho{
+
+	border-radius: 30px;
+	background-color: #17028db0;
+	background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/677302-fundo-de-banner-abstrato-tecnologia-gr%C3%A1tis-vetor.jpg");
+	background-size: 100%;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo,#area-menu{
+	border-radius: 30px;
+	padding: 10px;
+	text-align: center;
+}
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+#area-lateral {
+	
+	width: 240px;
+	float: right;
+	/*background: orange;*/
+}
+
+.imagem-postagem {
+	border-radius: 10px;
+	width: 95%;
+}
+
+.postagem{
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral{
+	border-radius: 15px;
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+#rodape {
+	border-radius: 30px;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	
+}
+
+/*formatação do menu*/
+a {
+	text-decoration: none;
+}
+
+a:link,a:visited {
+	color: #17028db0;
+
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+
+
+#area-cabecalho a:link,#area-cabecalho a:visited {
+	border-radius: 30px;
+	color: #FFFFFF;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	border-radius: 30px;
+	color: #17028db0;
+	background: #FFFFFF;
+	text-decoration:none;
+
+}
+
+
+/* FORMATACOES GERAIS*/
+
+h1{
+	border-radius: 30px;
+	color: #b6e2e4;
+	font-size:2.5em;
+}
+h2{
+	color: #17028db0;
+}
+h3{
+	border-radius: 15px;
+	color: #565656;
+	background: #b6e2e4;
+	padding: 5px;
+}
+
+.branco {
+	color: #FFFFFF;
+}
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+.texto-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+@media (max-width: 1080px ) {
+	body {
+		width: 90%;
+	}
+	#area-cabecalho {
+		width: 100%;
+
+	}
+	#area-principal{
+		width: 90%;
+	}
+	
+	.imagem-postagem {
+		width: 90%;
+	}
+	#area-postagem{
+		width: 90%;
+	}
+	.postagem{
+		width: 50%;
+	}
+
+	#area-lateral{
+		width: 100%;
+	}
+
+	#rodape {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 650px) {
+	body {
+		width: 90%;
+	}
+	#area-cabecalho {
+		width: 100%;
+
+	}
+	#area-principal{
+		width: 90%;
+	}
+	
+	.imagem-postagem{
+		width: 90%;
+	}
+	#area-postagem{
+		width: 90%;
+	}
+	.postagem{
+		width: 50%;
+	}
+	#area-lateral{
+		width: 100%;
+	}
+	#rodape {
+		width: 100%;
+	}
+
+
+}
